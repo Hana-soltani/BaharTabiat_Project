@@ -39,7 +39,7 @@ import Header from "./Components/Header";
 
 import Homepage from "./Pages/Homepage";
 import Aboutus from "./Pages/Aboutus";
-import ConsultationRequest from "./Pages/consultationRequest";
+import consultationRequest from "./Pages/consultationRequest";
 import Information from "./Pages/Information";
 import Services from "./Pages/Services";
 
@@ -50,7 +50,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<Aboutus />} />
-        <Route path="/consultationRequest" element={<ConsultationRequest />} />
+        <Route path="/consultationRequest" element={<consultationRequest />} />
         <Route path="/services" element={<Services />} />
         <Route path="/information" element={<Information />} />
       </Routes>

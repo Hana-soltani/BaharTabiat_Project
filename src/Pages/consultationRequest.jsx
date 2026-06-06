@@ -1,8 +1,8 @@
-function ConsultationRequest() {
+function consultationRequest() {
     return (
         <div>
             <p>salam</p>
         </div>
     )
 };
-export default ConsultationRequest;
+export default consultationRequest;
