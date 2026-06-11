@@ -12,29 +12,29 @@ function Header() {
 
     return (
         <div>
-            <header className="flex items-center sticky top-0 h-16 z-50  w-full    bg-white border-[#d5e6d5] xl:w-full  justify-center px-3 xl:h-20 md:h-16 lg:h-20 border-b-2">
+            <header className="flex items-center sticky top-0 h-36 z-50  w-full    bg-white border-[#d5e6d5] xl:w-full  justify-center px-3 xl:h-20 md:h-16 lg:h-20 border-b-2">
                 <div className="flex items-center w-full lg:w-auto justify-between lg:justify-start lg:gap-3">
                     {/* Hamburger Menu */}
                     <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className="lg:hidden text-white text-3xl order-3 lg:order-1"
+                        className="lg:hidden text-white order-3 lg:order-1"
                         type="button"
                     >
-                        <svg className="mr-1 md:mr-4" xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 24 24" fill="#111111">
+                        <svg className="mr-10 md:mr-4 scale-200 " xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="#111111">
                             <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
                         </svg>
                     </button>
 
-                    <Link to="/" className="flex justify-center order-2 lg:hidden mr-12">
-                        <img className="w-32 md:w-36" src="/Photos/-210152_temp.jpg" alt="logo" />
+                    <Link to="/" className="flex justify-center order-2 lg:hidden mr-24">
+                        <img className="w-72 md:w-36" src="/Photos/-210152_temp.jpg" alt="logo" />
                     </Link>
 
                     <button
                         type="button"
-                        className="group md:ml-5 text-white hover:bg-[#81c784] flex items-center gap-2 mr-3 xl:px-4 h-8 px-2 xl:h-10 rounded-md xl:text-sm xl:ml-2 text-xs font-bold bg-[#43A047] whitespace-nowrap transition-transform duration-300 hover:scale-105"
+                        className="group md:ml-5 text-white hover:bg-[#81c784] flex items-center gap-2 ml-8 xl:px-4 h-20 px-8 xl:h-10 rounded-lg xl:text-sm xl:ml-2 text-2xl font-bold bg-[#43A047] whitespace-nowrap transition-transform duration-300 hover:scale-105"
                     >
                         تماس با ما
-                        <svg className="xl:w-5 w-3 items-center" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                        <svg className="xl:w-5  items-center" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="#ffffff">
                             <path d="M16.57 22a2 2 0 0 0 1.43-.59l2.71-2.71a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0l-1.6 1.59a7.55 7.55 0 0 1-3-1.59 7.62 7.62 0 0 1-1.59-3l1.59-1.6a1 1 0 0 0 0-1.41l-4-4a1 1 0 0 0-1.41 0L2.59 6A2 2 0 0 0 2 7.43 15.28 15.28 0 0 0 6.3 17.7 15.28 15.28 0 0 0 16.57 22zM6 5.41 8.59 8 7.3 9.29a1 1 0 0 0-.3.91 10.12 10.12 0 0 0 2.3 4.5 10.08 10.08 0 0 0 4.5 2.3 1 1 0 0 0 .91-.27L16 15.41 18.59 18l-2 2a13.28 13.28 0 0 1-8.87-3.71A13.28 13.28 0 0 1 4 7.41zM20 11h2a8.81 8.81 0 0 0-9-9v2a6.77 6.77 0 0 1 7 7z" />
                             <path d="M13 8c2.1 0 3 .9 3 3h2c0-3.22-1.78-5-5-5z" />
                         </svg>

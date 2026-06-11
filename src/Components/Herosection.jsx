@@ -3,17 +3,17 @@
 
 function Herosection() {
     return (
-        <div className="relative  flex flex-col lg:flex-row items-center justify-between px-6 lg:px-24 py-12 overflow-visible bg-gradient-to-br from-[#e8ede4] to-[#d8e0d0] ">
+        <div className="relative  flex flex-col lg:flex-row items-center justify-between px-6 py-[70%] lg:px-24 md:py-12 overflow-visible bg-gradient-to-br from-[#e8ede4] to-[#d8e0d0] ">
 
             {/* سمت چپ - دایره و عکس */}
             <div className="relative w-full lg:w-1/2 flex justify-center items-center overflow-visible">
 
                 {/* دایره رنگی پشت عکس */}
-                <div className="w-[240px] h-[240px]  md:w-[400px] md:h-[400px] xl:mt-5 -mt-2 rounded-full bg-gradient-to-br from-[#8bc34a] to-[#a8d86c] shadow-2xl"></div>
+                <div className="w-[480px] h-[480px]  md:w-[400px] md:h-[400px] xl:mt-5 -mt-[60%] rounded-full bg-gradient-to-br from-[#8bc34a] to-[#a8d86c] shadow-2xl"></div>
 
                 {/* عکس - بیرون زدن از بالا */}
                 <img
-                    className="absolute -top-1 md:top-7 w-[30%] md:w-[75%] "
+                    className="absolute -mt-[50%]  md:top-7 w-[60%] md:w-[75%] "
                     src="public/Photos/InShot_20260523_150941833 (1).png"
                     alt=""
                 />
