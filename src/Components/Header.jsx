@@ -126,7 +126,7 @@ function Header() {
                             </Link>
                         </div>
 
-                        <ul className="absolute mt-2 w-72 bg-[#43A047] rounded-md opacity-0 group-hover:opacity-100 group-hover:visible transition-all invisible text-right">
+                        <ul className="absolute mt-2 w-72 bg-[#81c784] rounded-md opacity-0 group-hover:opacity-100 group-hover:visible transition-all invisible text-right">
                             <li><Link to="/information" className="block px-2 py-2 text-sm font-medium text-[#1c3126] hover:bg-[#f7fafc]">تغییرات سن</Link></li>
                             <li><Link to="/information" className="block px-2 py-2 text-sm font-medium text-[#1c3126] hover:bg-[#f7fafc]">انحصار وراثت</Link></li>
                             <li><Link to="/information" className="block px-2 py-2 text-sm font-medium text-[#1c3126] hover:bg-[#f7fafc]">تحولات زوج ها</Link></li>
