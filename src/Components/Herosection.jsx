@@ -14,7 +14,7 @@ function Herosection() {
                 {/* عکس - بیرون زدن از بالا */}
                 <img
                     className="absolute -mt-[50%]  md:top-7 w-[60%] md:w-[75%] "
-                    src="public/Photos/InShot_20260523_150941833 (1).png"
+                    src="/Photos/InShot_20260523_150941833 (1).png"
                     alt=""
                 />
 
